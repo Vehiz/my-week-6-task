@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('./partials/head.ejs') %>
+<body>
+    <%- include('./partials/navbar.ejs') %>
+<div class="container-fluid movies-container">
+    <% for ( let details of data ){ %>
+        <% for(let movie of details.Movies) {%>
+        <div class="col-sm-3 movie-card">
+            <div class="card" style="width: 18rem;">
+                <img src="<%= movie.image %>" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title"><%= movie.title %></h5>
+                  <p class="card-text"><%= movie.description %></p>
+                  <a href="/movies/update/<%=movie.id%>" class="btn btn-primary">Edit</a>
+                  <a href="/movies/delete/<%=movie.id%>" class="btn btn-primary" > Delete </a>
+                </div>
+              </div>
+        </div>
+        <% } %>
+    <% } %>
+</div>
+
+    <%- include('./partials/footer.ejs') %>
+</body>
+</html>

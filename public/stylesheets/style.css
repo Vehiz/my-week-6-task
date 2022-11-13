@@ -1,0 +1,40 @@
+/* body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+} */
+
+.movies-container{
+  background-color: black;
+  display: flex;
+  justify-content: flex-start;
+  /* align-items: center; */
+  flex-wrap: wrap;
+  height: 100vh;
+}
+
+/* .movie-card-container{
+  display: flex;
+  background-color: bisque;
+  max-width: 400px;
+} */
+
+
+.movie-card{
+  /* background-color: aqua; */
+  margin: 2px;
+  
+
+}
+
+/* .foot{
+  position: fixed;
+  background-color: aqua;
+  margin-bottom: 0;
+} */
+
+
+

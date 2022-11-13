@@ -1,0 +1,63 @@
+[
+   {
+      "User": {
+         "fullname": "john doe",
+         "username": "Yourusername",
+         "email": "john@example.com",
+         "password": "ofyourchoice"
+      },
+      "Movies": [
+         {
+            "title": "The fall of troy",
+            "description": "Achilles was defeated for the sake of love.",
+            "image": "guess",
+            "price": 3000,
+            "id": "d69279e4-b96a-4f24-99f6-7ab80404031b"
+         }
+      ]
+   },
+   {
+      "User": {
+         "fullname": "john doe",
+         "username": "Yourusername",
+         "email": "peter@example.com",
+         "password": "ofyourchoice"
+      },
+      "Movies": []
+   },
+   {
+      "User": {
+         "fullname": "john doe",
+         "email": "elijah@example.com",
+         "password": "$2a$10$1iiPhDl7QSqrWA8uos7swed9NWVkflopE4gxLhFCJvJAHPGhCAGoy",
+         "username": "Yourusername"
+      },
+      "Movies": []
+   },
+   {
+      "User": {
+         "fullname": "john doe",
+         "email": "elizade@example.com",
+         "password": "$2a$10$9oPv7nAcc96IkZ2Nm4LNNuiimfduOY32ClTUr8HFie2FAARal4zxa",
+         "username": "Yourusername"
+      },
+      "Movies": []
+   },
+   {
+      "User": {
+         "fullname": "Victor Akhigbemidu",
+         "email": "vehiz1520@gmail.com",
+         "password": "$2a$10$upVocwhFDLH18Z5B5P8Ume2.ntdJlk.h46H2OnCXhuSVQKP7c8rwC",
+         "username": "Victorehiz"
+      },
+      "Movies": [
+         {
+            "title": "Peter Parker",
+            "price": "400",
+            "description": "This is nice",
+            "image": "https://res.cloudinary.com/dwbhkejay/image/upload/v1668274796/MoviesPictureGallery/vzmwabxzuf79es1qcbbo.png",
+            "id": "7a7a232c-e635-4df8-950d-ae00eb8ea7bc"
+         }
+      ]
+   }
+]

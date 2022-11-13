@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('./partials/head.ejs') %>
+  <title>Spiced-Movie |<%= title %></title>
+<body>
+  <%- include('./partials/navbar.ejs') %>
+  <div class="container-fluid">
+      <div class="col text-center py-3">
+        <h1>Update Movie</h1>
+      </div>
+      <div class="row g-6">
+        <div class="col-6 offset-3 border-secondary shadow py-3 px-5 rounded">
+          <form class="form_container" method="post" action="/movies/update?_method=PUT" enctype="multipart/form-data">
+            <div class="form-group mb-1">
+              <label for="id" class="form-label"></label>
+              <div class="">
+                <input type="id" class="form-control" id="id" placeholder="id" name="id" value="<%=movieid%>" disabled>
+              </div>
+            </div>
+            <div class="form-group mb-1">
+              <label for="name" class="form-label"></label>
+              <div class="">
+                <input type="name" class="form-control" id="title" placeholder="Title" name="title">
+              </div>
+            </div>
+            <div class="form-group mb-1">
+              <label for="phone" class="form-label"></label>
+              <div class="">
+                <input type="text" class="form-control" id="price" placeholder="Price" name="price">
+              </div>
+            </div>
+            <div class="form-group mb-1">
+                <label for="name" class="form-label"></label>
+                <div class="">
+                  <input type="file" class="form-control" id="image" placeholder="image" name="image">
+                </div>
+              </div>
+            <div class="form-group mb-5">
+              <label for="notes" class="form-label"></label>
+              <div class="">
+                <textarea type="text" class="form-control" id="description" placeholder="Description" name="description"></textarea>
+              </div>
+            </div>
+            <div class="form-group mb-3">
+              <div class="text-center">
+                <input type="submit" class="btn btn-primary" id="submit" value="Update" >
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+  </div>
+  <%- include('./partials/footer.ejs') %>
+</body>
+</html>
